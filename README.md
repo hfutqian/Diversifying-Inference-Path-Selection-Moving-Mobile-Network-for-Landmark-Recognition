@@ -6,7 +6,7 @@
 * pytorch 0.3.1
 
 ## Datasets
-We construct two landmark classification datasets: Landmark-420 and Landmark-732, which are available in link
+Download the landmark classification dataset Landmark-732 from the link and extract them to ./Landmark-732.
 
 ![dataset samples](https://github.com/hfutqian/Diversifying-Inference-Path-Selection-Moving-Mobile-Network-for-Landmark-Recognition/blob/main/images/dataset_samples.png)
 

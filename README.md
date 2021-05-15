@@ -25,20 +25,13 @@ Run the python file ./Landmark-732/finetuning phase/finetune.py
 
 ## Citation
 
-`@ARTICLE{9423528,
-
-  author={Qian, Biao and Wang, Yang and Hong, Richang and Wang, Meng and Shao, Ling},
-  
-  journal={IEEE Transactions on Image Processing}, 
-  
-  title={Diversifying Inference Path Selection: Moving-Mobile-Network for Landmark Recognition}, 
-  
-  year={2021},
-  
-  volume={30},
-  
-  number={},
-  
-  pages={4894-4904},
-  
-  doi={10.1109/TIP.2021.3076275}}`
+    @ARTICLE{9423528,
+      author={Qian, Biao and Wang, Yang and Hong, Richang and Wang, Meng and Shao, Ling},
+      journal={IEEE Transactions on Image Processing}, 
+      title={Diversifying Inference Path Selection: Moving-Mobile-Network for Landmark Recognition}, 
+      year={2021},
+      volume={30},
+      number={},
+      pages={4894-4904},
+      doi={10.1109/TIP.2021.3076275}
+    }

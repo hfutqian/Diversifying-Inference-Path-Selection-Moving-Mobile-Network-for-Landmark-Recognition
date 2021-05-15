@@ -22,3 +22,5 @@ Run the python file ./Landmark-732/finetuning phase/finetune.py
 
 
 ## Citation
+
+![GitHub Logo](/images/dataset_samples.pdf)

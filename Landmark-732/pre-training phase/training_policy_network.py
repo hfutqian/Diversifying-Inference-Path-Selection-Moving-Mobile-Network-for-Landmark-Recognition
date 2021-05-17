@@ -1,6 +1,5 @@
 #coding = utf-8
 import os
-#from tensorboard_logger import configure, log_value
 import torch
 import torch.autograd as autograd
 from torch.autograd import Variable

@@ -275,15 +275,15 @@ testloader = torch.utils.data.DataLoader(testset, batch_size=args.batch_size, sh
 
 # create model
 layer_config = [7, 7, 7]
-rnet = resnet.FlatResNet224(base.Bottleneck, layer_config, num_classes=732)
-agent = resnet.Policy224_loc([1,1,1,1], num_blocks=21)
+rnet = resnet.FlatResNet224(base.Bottleneck, layer_config, num_classes=732)    #recognition network
+agent = resnet.Policy224_loc([1,1,1,1], num_blocks=21)    #policy network
 num_blocks = sum(rnet.layer_config)
 
 agent = nn.DataParallel(agent)
 rnet = nn.DataParallel(rnet)
 rnet.eval().cuda()
 agent.cuda()
-rnet_checkpoint = torch.load('pre-trained recognition network model path')
+rnet_checkpoint = torch.load('pre-trained recognition network model path')    #load pre-trained recognition network
 rnet.load_state_dict(rnet_checkpoint['state_dict'])
 
 start_epoch = 0
